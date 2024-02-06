@@ -1,0 +1,12 @@
+.cover {
+  display: flex;
+}
+.list {
+  list-style-type: none;
+}
+.genres {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  gap: 10px;
+}
