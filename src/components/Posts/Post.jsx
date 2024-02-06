@@ -1,4 +1,3 @@
-import css from './post.module.css';
 import { fetchMovies } from '../../api/fetch';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -27,7 +26,7 @@ const Post = () => {
     <>
       {isLoading && '...Loading'}
       {error && `Error: ${error}`}
-     <main>
+      <main>
         <ul>
           {movieList.map(({ title, id, original_name }) => (
             <li key={id}>
@@ -35,7 +34,7 @@ const Post = () => {
             </li>
           ))}
         </ul>
-     </main>
+      </main>
     </>
   );
 };

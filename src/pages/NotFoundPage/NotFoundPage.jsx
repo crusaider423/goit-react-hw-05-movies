@@ -1,4 +1,3 @@
-import css from './not-found-page.module.css';
 import { Link } from 'react-router-dom';
 const NotFoundPage = () => {
   return (

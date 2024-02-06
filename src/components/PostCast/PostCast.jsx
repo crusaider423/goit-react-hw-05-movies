@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { fetchMovieCast } from 'api/fetch';
-import css from './post-cast.module.css';
 import { useParams } from 'react-router-dom';
 import MarkupPostCast from './MarkupPostCast';
 

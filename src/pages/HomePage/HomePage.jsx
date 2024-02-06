@@ -1,4 +1,3 @@
-import css from './home-page.module.css';
 import Post from '../../components/Posts/Post';
 
 const Home = () => {

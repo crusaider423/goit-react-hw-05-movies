@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import css from './form-search.module.css';
 import { useSearchParams } from 'react-router-dom';
 
 const FormSearch = () => {
@@ -13,7 +12,7 @@ const FormSearch = () => {
   };
 
   return (
-   <main>
+    <main>
       <form onSubmit={handleSubmit}>
         <label htmlFor="username" style={{ display: 'none' }}>
           Username:
@@ -30,7 +29,7 @@ const FormSearch = () => {
           Search
         </button>
       </form>
-   </main>
+    </main>
   );
 };
 

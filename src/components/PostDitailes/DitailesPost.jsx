@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import css from './ditailes-post.module.css';
 import { fetchMovieDitailed } from 'api/fetch';
 import { useNavigate, useParams, useLocation } from 'react-router-dom';
 import MarkupDitailesPost from './MarkupDitailesPost';
